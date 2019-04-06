@@ -1,0 +1,360 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    width:100%;
+    height:130px;
+    background-color: #f0f1f5;
+    position: relative;
+}
+.logo img{
+    width:110px;
+    height: 110px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.m1 a img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left:180px;
+} 
+.m1 a img:hover{
+    filter:grayscale(100%);
+}
+.m2 a img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left:355px;
+} 
+.m2 a img:hover{
+    filter:grayscale(100%);
+}
+.m3 a img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left:520px;
+} 
+.m3 a img:hover{
+    filter:grayscale(100%);
+}
+.m4 a img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left:670px;
+} 
+.m4 a img:hover{
+    filter:grayscale(100%);
+}
+.m5 a img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left:825px;
+} 
+.m5 a img:hover{
+    filter:grayscale(100%);
+}
+.m6 a img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left:975px;
+} 
+.m6 a img:hover{
+    filter: grayscale(100%);
+}
+.m7 a img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left:1125px;
+    } 
+.m7 a img:hover{
+    filter:grayscale(100%);
+}
+.a1{
+    width: 30%;
+    height: 500px;
+    background-color: #555c6f;
+    float: left;
+}
+.a1 h2{
+    color: #b0b4bf;
+    text-align: center;
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.a1 p{
+    font-size: 20px;
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b0b4bf;
+    line-height: 40px;
+    text-align:justify;
+    margin-left:25%;
+}
+.a1 a img{
+    float: left;
+    margin-top:15%;
+    margin-left: 9%;
+}
+h4{
+    color: #b0b4bf;
+    text-align: center;
+    margin-top:15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.a2{
+    width:70%;
+    height: 500px;
+    background-color: #01bdbe;
+    float: right;
+}
+.a2 img{
+    float: right;
+    width:350px;
+    height: 350px;
+    margin-right:7%;
+    margin-top:7%;
+}
+.a2 h2{
+    color: #fef5ff;
+    float: left;
+    margin-left:6%;
+    margin-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+.a2 p{
+    font-size: 16px;
+    margin-top: 12%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fef5ff;
+    line-height: 30px;
+    text-align:justify;
+    margin-left:6%;
+    width:46%;
+}
+@media only screen and (max-width: 600px) {
+.header{
+    width:100%;
+    height: 500px;
+}
+.logo img{
+    width:20%;
+    height:80px;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.m1 a img{
+    width:25%;
+    height: 100px;
+    margin-left:38%;
+    margin-top:2%; 
+}
+.m2 a img{
+    width:25%;
+    height: 100px;
+    margin-left:71%;
+    margin-top:2%; 
+}
+.m3 a img{
+    width:25%;
+    height: 100px;
+    margin-left:5%;
+    margin-top:30%; 
+}
+.m4 a img{
+    width:25%;
+    height: 100px;
+    margin-left:38%;
+    margin-top:30%; 
+}
+.m5 a img{
+    width:25%;
+    height: 100px;
+    margin-left:71%;
+    margin-top:30%; 
+}
+.m6 a img{
+    width:25%;
+    height: 100px;
+    margin-left:5%;
+    margin-top:60%; 
+}
+.m7 a img{
+    width:25%;
+    height: 100px;
+    margin-left:38%;
+    margin-top:60%; 
+}
+.a1{
+    width: 30%;
+    height: 500px;
+}
+.a1 h2{
+    margin-top: 10%;
+    font-size: 20px;
+}
+.a1 p{
+    font-size: 12px;
+    margin-top: 5%;
+    line-height: 40px;
+    margin-left:5%;
+}
+.a1 a img{
+    float: left;
+    margin-top:15%;
+    margin-left: 9%;
+}
+h4{
+    margin-top:15%;
+    font-size: 6px;
+}
+.a2{
+    width:70%;
+    height: 500px;
+    float: right;
+}
+.a2 img{
+    float: right;
+    width:135px;
+    height: 135px;
+    margin-right:2%;
+    margin-top:5%;
+}
+.a2 h2{
+    float: left;
+    margin-left:4%;
+    margin-top: 25%;
+    font-size: 14px;
+    line-height: 20px;
+}
+.a2 p{
+    font-size: 12px;
+    margin-top: 3%;
+    float: left;
+     line-height: 20px;
+    margin-left:4.5%;
+    width:90%;
+}
+}
+@media only screen and (min-width: 241px) and (max-width:360px) {
+    .header{
+        width:100%;
+        height: 370px;
+    }
+    .logo img{
+        width:20%;
+        height:60px;
+        margin-top: 10%;
+        margin-left: 8%;
+    }
+    .m1 a img{
+        width:25%;
+        height: 80px;
+        margin-left:38%;
+        margin-top:5%; 
+    }
+    .m2 a img{
+        width:25%;
+        height: 80px;
+        margin-left:71%;
+        margin-top:5%; 
+    }
+    .m3 a img{
+        width:25%;
+        height: 80px;
+        margin-left:5%;
+        margin-top:41%; 
+    }
+    .m4 a img{
+        width:25%;
+        height: 80px;
+        margin-left:38%;
+        margin-top:41%; 
+    }
+    .m5 a img{
+        width:25%;
+        height: 80px;
+        margin-left:71%;
+        margin-top:41%; 
+    }
+    .m6 a img{
+        width:25%;
+        height: 80px;
+        margin-left:5%;
+        margin-top:78%; 
+    }
+    .m7 a img{
+        width:25%;
+        height: 80px;
+        margin-left:38%;
+        margin-top:78%; 
+    }
+}
+@media only screen and (max-width: 240px) {
+    .header{
+        width:100%;
+        height: 250px;
+    }
+    .logo img{
+        width:15%;
+        height:50px;
+        margin-top: 10%;
+        margin-left: 8%;
+    }
+    .m1 a img{
+        width:20%;
+        height: 60px;
+        margin-left:38%;
+        margin-top:5%; 
+    }
+    .m2 a img{
+        width:20%;
+        height: 60px;
+        margin-left:71%;
+        margin-top:5%; 
+    }
+    .m3 a img{
+        width:20%;
+        height: 60px;
+        margin-left:5%;
+        margin-top:41%; 
+    }
+    .m4 a img{
+        width:20%;
+        height: 60px;
+        margin-left:38%;
+        margin-top:41%; 
+    }
+    .m5 a img{
+        width:20%;
+        height: 60px;
+        margin-left:71%;
+        margin-top:41%; 
+    }
+    .m6 a img{
+        width:20%;
+        height: 60px;
+        margin-left:5%;
+        margin-top:78%; 
+    }
+    .m7 a img{
+        width:20%;
+        height: 60px;
+        margin-left:38%;
+        margin-top:78%; 
+    }
+}
+
