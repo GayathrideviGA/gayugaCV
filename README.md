@@ -1,2 +1,1 @@
-# gayugaCV
-Curriculum Vitae
+
